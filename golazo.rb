@@ -27,7 +27,8 @@ class Golazo < Formula
   end
 
   def install
-    bin.install "#{name}-#{OS.kernel_name.downcase}-#{Hardware::CPU.arch}" => name
+    arch = Hardware::CPU.arch.to_s.sub("x86_64", "amd64")
+    bin.install "#{name}-#{OS.kernel_name.downcase}-#{arch}" => name
   end
 
   test do
