@@ -1,5 +1,5 @@
 class Golazo < Formula
-  desc "The beautiful game in your terminal, see football match stats and updates in real-time"
+  desc "Golazo; The beautiful game in your terminal, see match stats in real-time"
   homepage "https://github.com/0xjuanma/golazo"
 
   version "0.15.0"
