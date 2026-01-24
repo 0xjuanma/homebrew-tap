@@ -2,27 +2,27 @@ class Anvil < Formula
   desc "CLI to streamline config management and tool installation"
   homepage "https://github.com/0xjuanma/anvil"
 
-  version "2.8.0"
+  version "2.9.0"
 
   on_macos do
     on_arm do
       url "https://github.com/0xjuanma/anvil/releases/download/v#{version}/anvil-darwin-arm64"
-      sha256 "441779716159036a4383b943fe06677ead8964f3040964eab91ff8a8ce6b81ca"
+      sha256 "4b49a789394a4dd3206b02e40871ed51c12b8416ae8f2ed91df14f835cc9c93a"
     end
     on_intel do
       url "https://github.com/0xjuanma/anvil/releases/download/v#{version}/anvil-darwin-amd64"
-      sha256 "33bbc801b8b92af2d05e591fc83105d060d894138f4fc7bb3a95fea1f9833320"
+      sha256 "c9738f9f8988cd45943f37bfed0686cb591ec762f217f04d1579da00ee36514c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/0xjuanma/anvil/releases/download/v#{version}/anvil-linux-arm64"
-      sha256 "71158697ca26be601969d14d12b787eb3ba277d1b31c74de6954162c8968af25"
+      sha256 "e167fd2935ec838ff0581288c342c08d28e907c80c0d68f5d406f9ae5975c53f"
     end
     on_intel do
       url "https://github.com/0xjuanma/anvil/releases/download/v#{version}/anvil-linux-amd64"
-      sha256 "0f07a4bc0b2e4d82ce409b97029a00b0b3eeca8fba5e5c084ae68c36b8fb69b9"
+      sha256 "a8922783cbe612b780f4102d19dcec57dc265d973f8b1f400c102d1fe6f54813"
     end
   end
 
