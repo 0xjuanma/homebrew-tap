@@ -2,27 +2,27 @@ class Golazo < Formula
   desc "See football match stats in real-time in your terminal"
   homepage "https://github.com/0xjuanma/golazo"
 
-  version "0.23.0"
+  version "0.24.0"
 
   on_macos do
     on_arm do
       url "https://github.com/0xjuanma/golazo/releases/download/v#{version}/golazo-darwin-arm64"
-      sha256 "7bc4dd29071aa46f625e3b22fd45ee3a83551f544d60be0675851e202ee96ca5"
+      sha256 "51c449cf809a8640fd747a0f393372096c45c94a131a0c91f12396898da9c0a2"
     end
     on_intel do
       url "https://github.com/0xjuanma/golazo/releases/download/v#{version}/golazo-darwin-amd64"
-      sha256 "63586771d9303c91c7f8c643107031e4fc78b63f2ab86dd44d808e22a4136e98"
+      sha256 "a8a8ba14e2240927b8ec182346d19c004fc4693e699d33facf62e180fce40f7a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/0xjuanma/golazo/releases/download/v#{version}/golazo-linux-arm64"
-      sha256 "d73fc6b1fd85710e37bd914549a40208fc08a5fb580798a438d8c20eaa6d9b8b"
+      sha256 "c253641c1cedc12e96f42fd4be11fa3bbff5906d4043a92ed45062a6d25e4d90"
     end
     on_intel do
       url "https://github.com/0xjuanma/golazo/releases/download/v#{version}/golazo-linux-amd64"
-      sha256 "094449f8b76e58ff56e6d37b9dfdb5e3c8293fdd0fc12c24b2e6d514198c11da"
+      sha256 "68318748baeb5d29eaa24e350ac679f310352f0f973a20618f1bf4d982b8e518"
     end
   end
 
